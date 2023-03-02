@@ -1,0 +1,47 @@
+.error {
+  padding: 0.5rem;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 1px solid red;
+  border-radius: 6px;
+  margin: 0.5rem 0 0 0;
+}
+.logo{
+  display: block;
+  width: 400px;
+  margin: 0 auto 30px;
+}
+.row {
+  margin: 0 auto;
+  width: 300px;
+  padding: 0.5rem 0;
+}
+
+.input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #777;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.submit {
+  margin-left: 20%;
+  padding: 0.5rem 0;
+  background-color: #1DB954;
+  color: #191414;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 60%;
+  box-shadow: 0 1px 4px 0 rgba(22, 24, 26, 0.15);
+  border: none;
+  border-radius: 50px;
+}
+.submit.disabled {
+  background-color: #e6e6e6;
+  color: #292929;
+  box-shadow: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
